@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#294fd1"><meta name="description" content="A simple academic planner for adding, completing, and deleting study tasks."><title>Academic planner · Ubong George</title><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><script src="script.js" defer></script></head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header"><a class="brand" href="index.html" aria-label="Ubong George, home"><span class="brand-mark">UG</span><span>Ubong George</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span class="menu-icon" aria-hidden="true"></span><span class="sr-only">Open navigation</span></button><nav class="primary-nav" id="primary-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a href="planner.html" aria-current="page">Planner</a><a class="nav-contact" href="contact.html">Contact <span aria-hidden="true">↗</span></a></nav></header>
+    <main id="main" class="wrap page-main planner-main">
+      <header class="page-heading"><p class="section-label">Make room for focused work</p><h1>Academic planner</h1><p class="page-lede">Keep your next study steps in one place. Your list stays on this device.</p></header>
+      <section class="planner-shell" aria-labelledby="task-heading">
+        <div class="planner-top"><div><p class="section-label">Your task list</p><h2 id="task-heading">What’s on your mind?</h2></div><p class="task-count" id="task-count" aria-live="polite">0 tasks</p></div>
+        <form class="task-form" id="task-form"><div class="task-input-wrap"><label for="task-title">New task</label><input id="task-title" name="task" maxlength="120" placeholder="e.g. Review this week’s notes" required><p class="field-error" id="task-error" hidden></p></div><div class="task-date-wrap"><label for="task-date">Due date <span>(optional)</span></label><input id="task-date" name="dueDate" type="date"></div><button class="button button-dark" type="submit">Add task <span aria-hidden="true">＋</span></button></form>
+        <p class="planner-hint">A small next step is still progress. Add one above to get started.</p>
+        <ul class="task-list" id="task-list" aria-label="Academic tasks"></ul>
+        <div class="planner-empty" id="planner-empty"><span class="empty-mark" aria-hidden="true">✳</span><h3>Your list is clear.</h3><p>Add a task when you’re ready to plan your next study session.</p></div>
+        <button class="clear-completed" id="clear-completed" type="button" hidden>Clear completed tasks</button>
+        <p class="storage-note"><span aria-hidden="true">●</span> Saved in this browser only. Your tasks aren’t sent to a server.</p>
+      </section>
+      <aside class="planner-aside"><span aria-hidden="true">✦</span><p>Try breaking a big assignment into a few smaller steps. It’s easier to see where to begin.</p></aside>
+    </main>
+    <footer class="site-footer wrap"><a class="brand" href="index.html"><span class="brand-mark">UG</span><span>Ubong George</span></a><p>Student portfolio · Miva University</p><a href="contact.html">Say hello <span aria-hidden="true">↗</span></a></footer>
+  </body>
+</html>
