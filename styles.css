@@ -244,7 +244,7 @@ tbody td { color: var(--muted); }
   .contact-layout { gap: 40px; }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 820px) {
   body { font-size: 15px; }
   .wrap, .site-header { width: calc(100% - 36px); }
   .site-header { min-height: 68px; }
