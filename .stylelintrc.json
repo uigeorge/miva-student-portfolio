@@ -1,0 +1,8 @@
+{
+  "extends": ["stylelint-config-recommended"],
+  "plugins": ["@stylistic/stylelint-plugin"],
+  "rules": {
+    "@stylistic/declaration-block-single-line-max-declarations": 1,
+    "no-descending-specificity": null
+  }
+}

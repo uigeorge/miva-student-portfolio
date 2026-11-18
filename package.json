@@ -1,0 +1,14 @@
+{
+  "name": "miva-student-portfolio",
+  "private": true,
+  "scripts": {
+    "format:css": "prettier --write styles.css",
+    "lint:css": "stylelint styles.css"
+  },
+  "devDependencies": {
+    "@stylistic/stylelint-plugin": "^6.0.1",
+    "prettier": "^3.6.2",
+    "stylelint": "^18.0.0",
+    "stylelint-config-recommended": "^19.0.0"
+  }
+}
